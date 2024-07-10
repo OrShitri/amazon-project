@@ -8,6 +8,7 @@ import axios from 'axios';
 import { StoreProvider } from './store.jsx'
 
 axios.defaults.baseURL = "http://localhost:8080";
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <StoreProvider>
